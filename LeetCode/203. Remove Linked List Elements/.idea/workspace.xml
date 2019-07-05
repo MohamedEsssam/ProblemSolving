@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="237__Delete_Node_in_a_Linked_List" targetName="237__Delete_Node_in_a_Linked_List" />
+      <config projectName="203__Remove_Linked_List_Elements" targetName="203__Remove_Linked_List_Elements" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25645c20-8240-4721-9e1e-1c7ac8a8a2e5" name="Default Changelist" comment="">
+    <list default="true" id="d0cacbc7-a10e-43e0-81ca-2d1997d5fdbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Solution.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../237. Delete Node in a Linked List/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../237. Delete Node in a Linked List/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../237. Delete Node in a Linked List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../237. Delete Node in a Linked List/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -35,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="205">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -47,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -56,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -79,7 +83,7 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/237. Delete Node in a Linked List.iml" />
+        <option value="$PROJECT_DIR$/.idea/203. Remove Linked List Elements.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -98,22 +102,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="237__Delete_Node_in_a_Linked_List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="237. Delete Node in a Linked List" type="462c0819:PsiDirectoryNode" />
+              <item name="203__Remove_Linked_List_Elements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="203. Remove Linked List Elements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -131,7 +134,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="237__Delete_Node_in_a_Linked_List" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="237__Delete_Node_in_a_Linked_List" TARGET_NAME="237__Delete_Node_in_a_Linked_List" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="237__Delete_Node_in_a_Linked_List" RUN_TARGET_NAME="237__Delete_Node_in_a_Linked_List">
+    <configuration name="203__Remove_Linked_List_Elements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="203__Remove_Linked_List_Elements" TARGET_NAME="203__Remove_Linked_List_Elements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="203__Remove_Linked_List_Elements" RUN_TARGET_NAME="203__Remove_Linked_List_Elements">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -142,21 +145,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25645c20-8240-4721-9e1e-1c7ac8a8a2e5" name="Default Changelist" comment="" />
-      <created>1562284763751</created>
+      <changelist id="d0cacbc7-a10e-43e0-81ca-2d1997d5fdbd" name="Default Changelist" comment="" />
+      <created>1562288980172</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562284763751</updated>
-      <workItem from="1562284766199" duration="3534000" />
+      <updated>1562288980172</updated>
+      <workItem from="1562288981361" duration="5194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3534000" />
+    <option name="totallyTimeSpent" value="5194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="27" width="1305" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
@@ -189,15 +191,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="205">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -206,8 +208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>

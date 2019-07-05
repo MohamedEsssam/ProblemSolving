@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/237. Delete Node in a Linked List/Solution.cpp
+Solution.h
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/237. Delete Node in a Linked List/Solution.h
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/237. Delete Node in a Linked List/Solution.h
+iostream
+-
+

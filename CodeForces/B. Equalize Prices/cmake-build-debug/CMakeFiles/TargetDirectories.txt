@@ -1,0 +1,3 @@
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Equalize Prices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Equalize Prices/cmake-build-debug/CMakeFiles/B__Equalize_Prices.dir
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Equalize Prices/cmake-build-debug/CMakeFiles/edit_cache.dir

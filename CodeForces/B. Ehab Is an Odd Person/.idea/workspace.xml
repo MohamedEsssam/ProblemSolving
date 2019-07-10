@@ -11,16 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2106562-9652-4176-af30-7e2b09f29b1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/B. Ehab Is an Odd Person.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/100. Same Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/100. Same Tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/20. Valid Parentheses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/20. Valid Parentheses/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2106562-9652-4176-af30-7e2b09f29b1b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="73" />
     <option name="y" value="47" />
     <option name="width" value="1283" />
@@ -148,15 +139,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562721230005</updated>
-      <workItem from="1562721232331" duration="4251000" />
+      <workItem from="1562721232331" duration="4469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4251000" />
+    <option name="totallyTimeSpent" value="4469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="27" width="1305" height="741" extended-state="7" />
+    <frame x="61" y="27" width="1305" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />

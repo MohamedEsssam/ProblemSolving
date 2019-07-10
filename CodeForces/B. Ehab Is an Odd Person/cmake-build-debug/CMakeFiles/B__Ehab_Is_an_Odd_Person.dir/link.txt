@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/B__Ehab_Is_an_Odd_Person.dir/main.cpp.o CMakeFiles/B__Ehab_Is_an_Odd_Person.dir/Solver.cpp.o  -o B__Ehab_Is_an_Odd_Person 

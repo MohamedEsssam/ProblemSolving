@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Ehab Is an Odd Person/Solver.cpp
+Solver.h
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Ehab Is an Odd Person/Solver.h
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Ehab Is an Odd Person/Solver.h
+stdio.h
+-
+vector
+-
+bits/stdc++.h
+-
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Ehab Is an Odd Person/main.cpp
+Solver.h
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Ehab Is an Odd Person/Solver.h
+

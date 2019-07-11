@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/CodeForces/B. Equalize Prices/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

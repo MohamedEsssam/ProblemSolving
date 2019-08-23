@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/139. Word Break/Solution.h
+vector
+-
+string
+-
+
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/139. Word Break/main.cpp
+iostream
+-
+Solution.h
+/home/mohamedessam/Desktop/Problem Solving/problem/ProblemSolving/LeetCode/139. Word Break/Solution.h
+

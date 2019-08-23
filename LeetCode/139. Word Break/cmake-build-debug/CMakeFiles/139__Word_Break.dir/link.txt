@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/139__Word_Break.dir/main.cpp.o CMakeFiles/139__Word_Break.dir/Solution.cpp.o  -o 139__Word_Break 

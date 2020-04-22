@@ -347,13 +347,146 @@ public class Solution {
         return s;
     }
 
-/**************************************************************************
- **********************    private methods      ***************************
- *************************************************************************/
+    /**************************************************************************
+     **********************    WEEk 3      ************************************
+     *************************************************************************/
 
     /**
-     * private methods
+     * week 3 problem 1 Product of Array Except Self
+     * @param nums
+     * @return
      */
+    public int[] productExceptSelf(int[] nums) {
+        int[] result = new int[nums.length];
+
+        result[nums.length-1]=1;
+        for(int i=nums.length-2; i>=0; i--){
+            result[i]=result[i+1]*nums[i+1];
+        }
+
+        int left=1;
+        for(int i=0; i<nums.length; i++){
+            result[i]=result[i]*left;
+            left = left*nums[i];
+        }
+
+        return result;
+    }
+
+    /**
+     * week 3 problem 2 check Valid String
+     * @param s
+     * @return
+     */
+    private final List<Character> leftBrackets = Arrays.asList('(');
+    private final List<Character> rightBrackets = Arrays.asList(')');
+    public boolean checkValidString(String s) {
+        int maxLeft = 0, minLeft = 0;
+        for(char ch: s.toCharArray()){
+            if(isLeftBracket(ch)) minLeft++; else minLeft--;
+            if(!isRightBracket(ch)) maxLeft++; else maxLeft--;
+
+            if(maxLeft < 0) return false;
+
+            minLeft = Math.max(0, minLeft);
+        }
+
+        return minLeft == 0 ? true : false;
+    }
+
+    /**
+     * ************************ I Didn't solve it *************************
+     * week 3 problem 3 Number of Islands
+     * @param grid
+     * @return
+     */
+    public int numIslands(char[][] grid) {
+
+        return 0;
+    }
+
+    /**
+     * week 3 problem 4 Min Path Sum
+     * @param grid
+     * @return
+     */
+    public int minPathSum(int[][] grid) {
+        if (grid.length == 0) return 0;
+
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        for (int i = 1; i < rows; i++) {
+            grid[i][0] += grid[i-1][0];
+        }
+
+        for (int j = 1; j < cols; j++) {
+            grid[0][j] += grid[0][j-1];
+        }
+
+        for (int i = 1; i < rows; i++) {
+            for (int j = 1; j < cols; j++) {
+                grid[i][j] += Math.min(grid[i-1][j], grid[i][j-1]);
+            }
+        }
+
+        return grid[rows-1][cols-1];
+    }
+
+    /**
+     * week 3 problem 5 Search in Rotated Sorted Array
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int search(int[] nums, int target) {
+    	return binarySearch(nums, 0, nums.length-1, target);
+    }
+
+    /**
+     * ************************ I Didn't solve it *************************
+     * week 3 problem 6 Construct Binary Search Tree from Preorder Traversal
+     * @param preorder
+     * @return
+    */
+    public TreeNode bstFromPreorder(int[] preorder) {
+        return null;
+    }
+
+    /**
+     * week 3 problem 7 Leftmost Column with at Least a One
+     * @param //binaryMatrix
+     * @return
+     */
+     // This is the BinaryMatrix's API interface.
+     // You should not implement it, or speculate about its implementation
+     interface BinaryMatrix {
+    	public int get(int x, int y);
+    	public List<Integer> dimensions();
+     };
+     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
+        List<Integer> dimensions = binaryMatrix.dimensions();
+        int rows = dimensions.get(0), cols = dimensions.get(1);
+
+        if (rows == 0 || cols == 0)
+            return -1;
+
+        int res = -1, r = 0, c = cols - 1;
+        while (cols >= 0 && rows > r){
+            if (binaryMatrix.get(r, c) == 1){
+                res = c;
+                c--;
+            }else
+                r++;
+        }
+
+        return res;
+    }
+ 
+    /**************************************************************************
+    **********************    private methods      ***************************
+    *************************************************************************/
+
     private String sortString(String str){
         char []letters = str.toCharArray();
         Arrays.sort(letters);
@@ -385,5 +518,40 @@ public class Solution {
 
     private String rightRotate(String str, int d) {
         return leftRotate(str, str.length() - d);
+    }
+
+    private boolean isRightBracket(char ch) {
+        return rightBrackets.contains(ch);
+    }
+
+    private boolean isLeftBracket(char ch){
+        return leftBrackets.contains(ch);
+    }
+
+    private boolean isBracketsMatch(char left, char right){
+        return leftBrackets.contains(left) && rightBrackets.contains(right);
+    }
+
+    private int binarySearch(int[] nums, int left, int right, int target){
+        if(left>right) 
+            return -1;
+ 
+        int mid = left + (right-left)/2;
+ 
+        if(target == nums[mid])
+            return mid;
+ 
+        if(nums[left] <= nums[mid]){
+            if(nums[left]<=target && target<nums[mid])
+                return binarySearch(nums,left, mid-1, target);
+            else
+                return  binarySearch(nums, mid+1, right, target);
+                
+            }else {
+                if(nums[mid]<target&& target<=nums[right])
+                    return  binarySearch(nums,mid+1, right, target);
+                else
+                    return  binarySearch(nums, left, mid-1, target);
+        }
     }
 }

@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = {0,1,1};
+        int[] arr = {1,2,3,4};
         int[][] items = {{1,1},{1,1},{0,2},{1,3}};
         String []strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
@@ -19,5 +19,7 @@ public class Main {
 //        System.out.println(solution.lastStoneWeight(arr));
 //        System.out.println(solution.findMaxLength(arr));
 //        System.out.println(solution.stringShift("abcdefg", items));
+//        System.out.println(Arrays.toString(solution.productExceptSelf(arr)));
+        System.out.println(solution.checkValidString("(*)()))"));
     }
 }
